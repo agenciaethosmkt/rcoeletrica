@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = "5511999999999";
+const WHATSAPP_NUMBER = "5511958755986";
 const WHATSAPP_MESSAGE = "Olá! Vim pelo site e gostaria de solicitar um orçamento.";
 
 export const whatsappLink = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
