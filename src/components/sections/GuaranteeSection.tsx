@@ -1,6 +1,5 @@
 import { WhatsAppButton } from "@/components/WhatsAppFloat";
-import garantiaSeal from "@/assets/garantia-seal.png";
-import { CheckCircle } from "lucide-react";
+import { CheckCircle, ShieldCheck } from "lucide-react";
 
 const guarantees = [
   "Garantia formal por escrito",
@@ -56,17 +55,16 @@ export function GuaranteeSection() {
               />
             </div>
 
-            {/* Seal */}
+            {/* Shield icon + stat block */}
             <div className="flex flex-col items-center justify-center gap-6">
-              <img
-                src={garantiaSeal}
-                alt="Selo Garantia por Escrito - R.C.O Serviços"
-                className="w-56 h-56 object-contain drop-shadow-xl"
-              />
+              <div className="flex items-center justify-center w-40 h-40 rounded-full"
+                style={{ border: "3px solid hsl(42 88% 52%)", background: "hsl(218 60% 14% / 0.05)" }}>
+                <ShieldCheck size={72} strokeWidth={1.25} style={{ color: "hsl(42 88% 52%)" }} />
+              </div>
               <div className="rounded-2xl p-6 text-center"
-                style={{ background: "hsl(215 50% 18%)", color: "hsl(0 0% 100%)" }}>
-                <p className="text-3xl font-black mb-1" style={{ color: "hsl(43 95% 53%)", fontFamily: "Montserrat, sans-serif" }}>100%</p>
-                <p className="text-sm font-semibold">Garantia Formal por Escrito</p>
+                style={{ background: "hsl(218 60% 14%)", color: "hsl(0 0% 100%)" }}>
+                <p className="text-3xl font-black mb-1" style={{ color: "hsl(42 88% 52%)", fontFamily: "Montserrat, sans-serif" }}>100%</p>
+                <p className="text-sm font-semibold">Garantia Formal</p>
                 <p className="text-xs mt-1" style={{ color: "hsl(215 20% 70%)" }}>Em todos os serviços executados</p>
               </div>
             </div>
