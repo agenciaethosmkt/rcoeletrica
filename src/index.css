@@ -10,57 +10,57 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* R.C.O Serviços Design System */
-    --background: 0 0% 98%;
-    --foreground: 215 35% 12%;
+    /* R.C.O Serviços Design System — Paleta: Navy | Gold | Light Gray */
+    --background: 210 20% 97%;
+    --foreground: 218 55% 10%;
 
     --card: 0 0% 100%;
-    --card-foreground: 215 35% 12%;
+    --card-foreground: 218 55% 10%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 215 35% 12%;
+    --popover-foreground: 218 55% 10%;
 
-    /* Navy Blue - Primary brand color (trust, professionalism) */
-    --primary: 215 50% 18%;
+    /* Navy Blue escuro — Primary brand color */
+    --primary: 218 60% 14%;
     --primary-foreground: 0 0% 100%;
 
-    /* Electric Yellow/Amber - Energy, electricity accent */
-    --accent-electric: 43 95% 53%;
-    --accent-electric-foreground: 215 50% 18%;
+    /* Gold — Energy, electricity accent */
+    --accent-electric: 42 88% 52%;
+    --accent-electric-foreground: 218 60% 14%;
 
     /* WhatsApp Green */
     --whatsapp: 142 70% 40%;
     --whatsapp-foreground: 0 0% 100%;
     --whatsapp-hover: 142 70% 34%;
 
-    --secondary: 215 30% 92%;
-    --secondary-foreground: 215 50% 18%;
+    --secondary: 210 25% 90%;
+    --secondary-foreground: 218 60% 14%;
 
-    --muted: 215 20% 94%;
-    --muted-foreground: 215 20% 45%;
+    --muted: 210 20% 93%;
+    --muted-foreground: 215 18% 42%;
 
-    --accent: 43 95% 53%;
-    --accent-foreground: 215 50% 18%;
+    --accent: 42 88% 52%;
+    --accent-foreground: 218 60% 14%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 215 20% 88%;
-    --input: 215 20% 88%;
-    --ring: 215 50% 18%;
+    --border: 210 20% 86%;
+    --input: 210 20% 86%;
+    --ring: 218 60% 14%;
 
     --radius: 0.5rem;
 
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(215 50% 10%) 0%, hsl(215 50% 22%) 100%);
-    --gradient-accent: linear-gradient(135deg, hsl(43 95% 48%) 0%, hsl(35 95% 55%) 100%);
-    --gradient-section: linear-gradient(180deg, hsl(215 30% 96%) 0%, hsl(0 0% 100%) 100%);
-    --gradient-dark: linear-gradient(135deg, hsl(215 50% 8%) 0%, hsl(215 45% 16%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(218 65% 8%) 0%, hsl(218 55% 18%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(42 88% 46%) 0%, hsl(36 90% 54%) 100%);
+    --gradient-section: linear-gradient(180deg, hsl(210 20% 95%) 0%, hsl(0 0% 100%) 100%);
+    --gradient-dark: linear-gradient(135deg, hsl(218 65% 7%) 0%, hsl(218 55% 15%) 100%);
 
     /* Shadows */
-    --shadow-card: 0 4px 24px -4px hsl(215 50% 18% / 0.12);
+    --shadow-card: 0 4px 24px -4px hsl(218 60% 14% / 0.10);
     --shadow-cta: 0 8px 32px -4px hsl(142 70% 40% / 0.35);
-    --shadow-electric: 0 8px 32px -4px hsl(43 95% 53% / 0.3);
+    --shadow-electric: 0 8px 32px -4px hsl(42 88% 52% / 0.28);
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;

@@ -7,10 +7,10 @@ const warningItems = [
   "Seu quadro de luz é antigo?",
 ];
 
-const fears = [
-  { icon: <Flame size={22} />, text: "Medo de incêndio" },
-  { icon: <Zap size={22} />, text: "Medo de queimar eletrodomésticos" },
-  { icon: <AlertTriangle size={22} />, text: "Medo de colocar a família em risco" },
+const risks = [
+  { icon: <Flame size={22} />, text: "Risco de incêndio" },
+  { icon: <Zap size={22} />, text: "Curto-circuito e danos a eletrodomésticos" },
+  { icon: <AlertTriangle size={22} />, text: "Alto consumo de energia elétrica" },
 ];
 
 export function ProblemSection() {
@@ -42,26 +42,24 @@ export function ProblemSection() {
           </div>
 
           <p className="text-lg mb-8 leading-relaxed" style={{ color: "hsl(var(--muted-foreground))" }}>
-            Muitas residências em São Paulo ainda possuem instalação elétrica antiga, feita sem padrão técnico.
-            <br /><br />
-            <strong style={{ color: "hsl(var(--foreground))" }}>E o problema não é apenas técnico. É emocional.</strong>
+            Instalações elétricas antigas, fora do padrão técnico, podem representar riscos para a segurança.
           </p>
 
-          {/* Fear cards */}
+          {/* Risk cards */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-10">
-            {fears.map((fear) => (
-              <div key={fear.text} className="rounded-xl p-5 text-center"
+            {risks.map((risk) => (
+              <div key={risk.text} className="rounded-xl p-5 text-center"
                 style={{ background: "hsl(215 50% 18% / 0.06)", border: "1px solid hsl(215 50% 18% / 0.12)" }}>
                 <div className="flex justify-center mb-3" style={{ color: "hsl(0 70% 45%)" }}>
-                  {fear.icon}
+                  {risk.icon}
                 </div>
-                <p className="font-semibold text-sm" style={{ color: "hsl(var(--foreground))" }}>{fear.text}</p>
+                <p className="font-semibold text-sm" style={{ color: "hsl(var(--foreground))" }}>{risk.text}</p>
               </div>
             ))}
           </div>
 
           <p className="text-base mb-10" style={{ color: "hsl(var(--muted-foreground))" }}>
-            A maioria das pessoas só procura um <strong>eletricista urgente em SP</strong> quando algo já deu errado.
+            A maioria das pessoas só procura um eletricista quando algo já deu errado.
             Mas muitas vezes o problema já estava dando sinais.
             <br /><br />
             <strong style={{ color: "hsl(0 70% 45%)" }}>O barato sai caro na elétrica.</strong>

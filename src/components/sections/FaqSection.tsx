@@ -8,7 +8,7 @@ const faqs = [
   },
   {
     question: "Tem garantia?",
-    answer: "Sim. Garantia formal por escrito após execução do serviço. Você não paga duas vezes pelo mesmo problema.",
+    answer: "Sim. Garantia formal após execução do serviço. Você não paga duas vezes pelo mesmo problema.",
   },
   {
     question: "Atende quais regiões?",
@@ -20,11 +20,11 @@ const faqs = [
   },
   {
     question: "Atende emergência?",
-    answer: "Sim, inclusive como eletricista urgente em SP. Entre em contato pelo WhatsApp para atendimento rápido.",
+    answer: "Sim. Atendemos emergências elétricas em São Paulo. Entre em contato pelo WhatsApp para atendimento rápido.",
   },
   {
     question: "O material é incluso?",
-    answer: "Sim, a compra de material é inclusa no serviço. Assim fica mais prático para você e garante qualidade nos componentes utilizados.",
+    answer: "Depende do serviço e da preferência do cliente. Oferecemos a opção de incluir o material no orçamento, garantindo qualidade nos componentes utilizados.",
   },
 ];
 

@@ -14,11 +14,6 @@ export function PremiumSection() {
     <section className="py-20" style={{ background: "var(--gradient-hero)" }}>
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
-          <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold mb-8"
-            style={{ background: "hsl(43 95% 53% / 0.2)", color: "hsl(43 95% 60%)", border: "1px solid hsl(43 95% 53% / 0.4)" }}>
-            💎 Posicionamento Premium
-          </span>
-
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-black mb-6 leading-tight"
             style={{ color: "hsl(0 0% 100%)", fontFamily: "Montserrat, sans-serif" }}>
             Se Você Procura Apenas o{" "}

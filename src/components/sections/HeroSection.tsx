@@ -1,5 +1,4 @@
 import heroImage from "@/assets/hero-electrician.jpg";
-import garantiaSeal from "@/assets/garantia-seal.png";
 import { WhatsAppButton } from "@/components/WhatsAppFloat";
 import { CheckCircle, MapPin, Clock, Shield } from "lucide-react";
 
@@ -55,7 +54,7 @@ export function HeroSection() {
             className="text-4xl md:text-5xl lg:text-6xl font-black leading-tight mb-6"
             style={{ color: "hsl(0 0% 100%)", fontFamily: "Montserrat, sans-serif" }}
           >
-            Eletricista Residencial em SP com{" "}
+            Eletricista em SP com{" "}
             <span style={{ color: "hsl(43 95% 53%)" }}>Garantia por Escrito</span>{" "}
             e Orçamento Fechado
           </h1>
@@ -94,14 +93,6 @@ export function HeroSection() {
         </div>
       </div>
 
-      {/* Seal floating on right side (desktop) */}
-      <div className="hidden lg:block absolute right-16 bottom-12 z-10">
-        <img
-          src={garantiaSeal}
-          alt="Garantia por Escrito - R.C.O Serviços"
-          className="w-40 h-40 object-contain drop-shadow-2xl"
-        />
-      </div>
     </section>
   );
 }

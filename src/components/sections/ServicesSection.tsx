@@ -1,34 +1,34 @@
 import { WhatsAppButton } from "@/components/WhatsAppFloat";
-import { Zap } from "lucide-react";
+import { Zap, LayoutGrid, Settings, Wind, Droplets, AlertCircle } from "lucide-react";
 
 const services = [
   {
-    emoji: "⚡",
+    icon: <Zap size={28} />,
     title: "Troca de Disjuntor SP",
     description: "Evite sobrecarga e risco de curto-circuito. Substituição segura e dentro das normas.",
   },
   {
-    emoji: "🔲",
+    icon: <LayoutGrid size={28} />,
     title: "Quadro Elétrico Residencial SP",
     description: "Atualização completa para suportar ar-condicionado, forno elétrico e equipamentos modernos.",
   },
   {
-    emoji: "🔧",
+    icon: <Settings size={28} />,
     title: "Troca de Quadro de Luz",
-    description: "Instalação organizada e dentro das normas técnicas, com material incluso.",
+    description: "Instalação organizada e dentro das normas técnicas.",
   },
   {
-    emoji: "💨",
+    icon: <Wind size={28} />,
     title: "Instalar Ventilador de Teto",
     description: "Instalação segura, sem risco de queda ou sobrecarga no circuito.",
   },
   {
-    emoji: "🚿",
+    icon: <Droplets size={28} />,
     title: "Instalador de Chuveiro SP",
     description: "Ligação correta, evitando aquecimento excessivo e risco de choque elétrico.",
   },
   {
-    emoji: "🚨",
+    icon: <AlertCircle size={28} />,
     title: "Eletricista Urgente SP",
     description: "Atendimento rápido para emergências elétricas em São Paulo capital.",
   },
@@ -57,7 +57,7 @@ export function ServicesSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-14">
           {services.map((service) => (
             <div key={service.title} className="service-card">
-              <div className="text-4xl mb-4">{service.emoji}</div>
+              <div className="mb-4" style={{ color: "hsl(43 95% 44%)" }}>{service.icon}</div>
               <h3 className="text-lg font-bold mb-2"
                 style={{ color: "hsl(var(--primary))", fontFamily: "Montserrat, sans-serif" }}>
                 {service.title}
