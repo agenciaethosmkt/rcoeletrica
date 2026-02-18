@@ -1,13 +1,30 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { HeroSection } from "@/components/sections/HeroSection";
+import { ProblemSection } from "@/components/sections/ProblemSection";
+import { TrustSection } from "@/components/sections/TrustSection";
+import { ServicesSection } from "@/components/sections/ServicesSection";
+import { TestimonialsSection } from "@/components/sections/TestimonialsSection";
+import { GuaranteeSection } from "@/components/sections/GuaranteeSection";
+import { PremiumSection } from "@/components/sections/PremiumSection";
+import { FaqSection } from "@/components/sections/FaqSection";
+import { FinalCTASection } from "@/components/sections/FinalCTASection";
+import { Footer } from "@/components/sections/Footer";
+import { WhatsAppFloat } from "@/components/WhatsAppFloat";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <>
+      <HeroSection />
+      <ProblemSection />
+      <TrustSection />
+      <ServicesSection />
+      <TestimonialsSection />
+      <GuaranteeSection />
+      <PremiumSection />
+      <FaqSection />
+      <FinalCTASection />
+      <Footer />
+      <WhatsAppFloat />
+    </>
   );
 };
 

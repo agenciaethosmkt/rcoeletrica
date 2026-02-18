@@ -47,6 +47,20 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        whatsapp: {
+          DEFAULT: "hsl(var(--whatsapp))",
+          foreground: "hsl(var(--whatsapp-foreground))",
+          hover: "hsl(var(--whatsapp-hover))",
+        },
+        electric: {
+          DEFAULT: "hsl(var(--accent-electric))",
+          foreground: "hsl(var(--accent-electric-foreground))",
+        },
+        navy: {
+          DEFAULT: "hsl(215 50% 18%)",
+          dark: "hsl(215 50% 10%)",
+          light: "hsl(215 40% 30%)",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
