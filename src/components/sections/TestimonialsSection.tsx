@@ -41,8 +41,8 @@ export function TestimonialsSection() {
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-black mb-4"
             style={{ color: "hsl(var(--primary))", fontFamily: "Montserrat, sans-serif" }}>
-            O que Nossos{" "}
-            <span style={{ color: "hsl(142 50% 35%)" }}>Clientes estão Dizendo</span>
+            O que Nossos Clientes{" "}
+            <span style={{ color: "hsl(43 95% 53%)" }}>estão Dizendo</span>
           </h2>
           <p className="text-lg" style={{ color: "hsl(var(--muted-foreground))" }}>
             Famílias que buscavam um eletricista residencial SP confiável e encontraram segurança.
