@@ -62,7 +62,8 @@ export function HeroSection() {
           >
             Eletricista em SP com{" "}
             <span style={{ color: "hsl(43 95% 53%)" }}>Garantia</span>{" "}
-            e Orçamento sem Surpresa
+            e{" "}
+            <span style={{ color: "hsl(43 95% 53%)" }}>Orçamento sem Surpresa</span>
           </h1>
 
           <p className="text-lg md:text-xl mb-8" style={{ color: "hsl(215 20% 80%)" }}>
