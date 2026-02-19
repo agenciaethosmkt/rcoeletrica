@@ -5,7 +5,7 @@ const premiumValues = [
   "Segurança para sua família",
   "Eletricista residencial em SP organizado",
   "Serviço elétrico seguro",
-  "Garantia por escrito",
+  "Garantia no serviço",
   "Nada de gambiarra",
 ];
 
@@ -51,7 +51,7 @@ export function PremiumSection() {
           </div>
 
           <WhatsAppButton
-            text="Falar Agora com a R.C.O Serviços"
+            text="Falar com a R.C.O Serviços"
             message="Olá! Quero contratar a R.C.O Serviços para minha instalação elétrica."
           />
         </div>

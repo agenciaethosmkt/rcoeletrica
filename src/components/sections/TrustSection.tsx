@@ -10,7 +10,7 @@ const problems = [
 
 const differentials = [
   "Orçamento fechado antes de iniciar",
-  "Garantia por escrito",
+  "Serviço com Garantia",
   "Compra de material inclusa",
   "Atendimento direto com o responsável",
   "Serviço limpo e organizado",
@@ -79,7 +79,7 @@ export function TrustSection() {
               <strong style={{ color: "hsl(0 0% 100%)" }}>Aqui não existe improviso. Existe padrão técnico e responsabilidade.</strong>
             </p>
             <WhatsAppButton
-              text="Falar com o Eletricista no WhatsApp"
+              text="Falar com o Eletricista"
               message="Olá! Gostaria de saber mais sobre os serviços da R.C.O com garantia."
             />
           </div>

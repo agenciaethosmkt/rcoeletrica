@@ -66,7 +66,7 @@ export function ProblemSection() {
           </p>
 
           <WhatsAppButton
-            text="Quero Resolver Meu Problema Elétrico Agora"
+            text="Resolver Meu Problema Elétrico"
             message="Olá! Tenho um problema elétrico em casa e gostaria de resolver urgente."
           />
         </div>
