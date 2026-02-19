@@ -37,12 +37,12 @@ export function TestimonialsSection() {
         <div className="text-center mb-14">
           <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold mb-6"
             style={{ background: "hsl(142 60% 40% / 0.1)", color: "hsl(142 50% 32%)", border: "1px solid hsl(142 60% 40% / 0.25)" }}>
-            ⭐ Prova Social
+            ⭐ Depoimentos
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-black mb-4"
             style={{ color: "hsl(var(--primary))", fontFamily: "Montserrat, sans-serif" }}>
-            Atendimento Organizado.{" "}
-            <span style={{ color: "hsl(142 50% 35%)" }}>Clientes Satisfeitos.</span>
+            O que Nossos{" "}
+            <span style={{ color: "hsl(142 50% 35%)" }}>Clientes estão Dizendo</span>
           </h2>
           <p className="text-lg" style={{ color: "hsl(var(--muted-foreground))" }}>
             Famílias que buscavam um eletricista residencial SP confiável e encontraram segurança.
@@ -84,7 +84,7 @@ export function TestimonialsSection() {
             Nosso objetivo é simples: <strong>Resolver o problema uma única vez.</strong>
           </p>
           <WhatsAppButton
-            text="Quero um Eletricista Confiável em SP"
+            text="Falar com Eletricista Confiável"
             message="Olá! Quero contratar um eletricista confiável em SP. Como funciona?"
           />
         </div>

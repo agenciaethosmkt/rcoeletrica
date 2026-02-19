@@ -50,7 +50,7 @@ export function ServicesSection() {
             <span style={{ color: "hsl(43 95% 44%)" }}>Segurança e Profissionalismo</span>
           </h2>
           <p className="text-lg max-w-xl mx-auto" style={{ color: "hsl(var(--muted-foreground))" }}>
-            Atendemos São Paulo capital com foco em bairros de classe média e média alta.
+            Atendemos toda a Grande São Paulo.
           </p>
         </div>
 
@@ -74,7 +74,7 @@ export function ServicesSection() {
             Se você pesquisou por <em>eletricista perto de mim em São Paulo</em>, atendemos sua região.
           </p>
           <WhatsAppButton
-            text="Solicitar Atendimento Agora"
+            text="Solicitar Atendimento"
             message="Olá! Gostaria de solicitar atendimento elétrico residencial em SP."
           />
         </div>

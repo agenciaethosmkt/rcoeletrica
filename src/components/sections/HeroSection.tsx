@@ -1,4 +1,5 @@
-import heroImage from "@/assets/hero-electrician.jpg";
+import heroImage from "@/assets/hero-electrician-logo.jpg";
+import logoRco from "@/assets/logo-rco.png";
 import { WhatsAppButton } from "@/components/WhatsAppFloat";
 import { CheckCircle, MapPin, Clock, Shield } from "lucide-react";
 
@@ -11,7 +12,7 @@ const checks = [
 ];
 
 const badges = [
-  { icon: <Shield size={14} />, text: "Garantia por Escrito" },
+  { icon: <Shield size={14} />, text: "Serviço com Garantia" },
   { icon: <Clock size={14} />, text: "Hora Marcada" },
   { icon: <MapPin size={14} />, text: "São Paulo Capital" },
 ];
@@ -28,6 +29,11 @@ export function HeroSection() {
         style={{ backgroundImage: `url(${heroImage})` }}
       />
       <div className="absolute inset-0" style={{ background: "linear-gradient(90deg, hsl(215 50% 10% / 0.97) 0%, hsl(215 50% 10% / 0.75) 60%, transparent 100%)" }} />
+
+      {/* Logo no canto superior direito */}
+      <div className="absolute top-5 right-6 z-20">
+        <img src={logoRco} alt="R.C.O Serviços" className="h-12 md:h-16 w-auto opacity-90" />
+      </div>
 
       <div className="relative z-10 container mx-auto px-4 py-20 lg:py-24">
         <div className="max-w-3xl">
@@ -83,7 +89,7 @@ export function HeroSection() {
 
           {/* CTA */}
           <WhatsAppButton
-            text="Falar no WhatsApp Agora e Solicitar Orçamento"
+            text="Solicitar Orçamento no WhatsApp"
             message="Olá! Vim pelo site e gostaria de solicitar um orçamento para serviço elétrico."
           />
 

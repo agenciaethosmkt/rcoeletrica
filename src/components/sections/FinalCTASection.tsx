@@ -39,7 +39,7 @@ export function FinalCTASection() {
           {/* BIG CTA button */}
           <div className="flex justify-center mb-6">
             <WhatsAppButton
-              text="Solicitar Orçamento Agora no WhatsApp"
+              text="Solicitar Orçamento no WhatsApp"
               message="Olá! Gostaria de solicitar um orçamento para serviço elétrico residencial em SP."
             />
           </div>

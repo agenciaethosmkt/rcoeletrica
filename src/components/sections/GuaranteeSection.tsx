@@ -2,7 +2,7 @@ import { WhatsAppButton } from "@/components/WhatsAppFloat";
 import { CheckCircle, ShieldCheck } from "lucide-react";
 
 const guarantees = [
-  "Garantia formal por escrito",
+  "Garantia formal no serviço",
   "Explicação técnica clara",
   "Orçamento transparente",
   "Compra de material inclusa",
@@ -49,7 +49,7 @@ export function GuaranteeSection() {
               </p>
 
               <WhatsAppButton
-                text="Agendar Atendimento no WhatsApp"
+                text="Agendar Atendimento"
                 message="Olá! Gostaria de agendar um atendimento elétrico com hora marcada."
                 size="sm"
               />
