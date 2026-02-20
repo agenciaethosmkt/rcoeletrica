@@ -68,7 +68,7 @@ export function TestimonialsSection() {
         <div className="max-w-2xl mx-auto mb-12 rounded-2xl overflow-hidden shadow-xl">
           <img
             src={electricalPanel}
-            alt="Antes e depois de quadro elétrico residencial - R.C.O Serviços SP"
+            alt="Antes e depois de quadro elétrico residencial - R.C.O Elétrica SP"
             className="w-full h-auto object-cover"
             loading="lazy"
           />

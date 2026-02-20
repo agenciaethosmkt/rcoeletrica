@@ -9,7 +9,7 @@ export function Footer() {
           <div>
             <p className="text-xl font-black mb-1"
               style={{ color: "hsl(0 0% 100%)", fontFamily: "Montserrat, sans-serif" }}>
-              R.C.O <span style={{ color: "hsl(43 95% 53%)" }}>Serviços</span>
+              R.C.O <span style={{ color: "hsl(43 95% 53%)" }}>Elétrica</span>
             </p>
             <p className="text-xs" style={{ color: "hsl(215 20% 55%)" }}>
               Eletricista Residencial em São Paulo
@@ -28,7 +28,7 @@ export function Footer() {
               Eletricista Residencial SP · Troca de Disjuntor SP · Quadro Elétrico Residencial SP
             </p>
             <p className="text-xs mt-1" style={{ color: "hsl(215 20% 35%)" }}>
-              © {new Date().getFullYear()} R.C.O Serviços. Todos os direitos reservados.
+              © {new Date().getFullYear()} R.C.O Elétrica. Todos os direitos reservados.
             </p>
           </div>
         </div>

@@ -51,8 +51,8 @@ export function PremiumSection() {
           </div>
 
           <WhatsAppButton
-            text="Falar com a R.C.O Serviços"
-            message="Olá! Quero contratar a R.C.O Serviços para minha instalação elétrica."
+            text="Falar com a R.C.O Elétrica"
+            message="Olá! Quero contratar a R.C.O Elétrica para minha instalação elétrica."
           />
         </div>
       </div>
