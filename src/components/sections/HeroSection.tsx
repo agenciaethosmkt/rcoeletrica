@@ -36,9 +36,9 @@ export function HeroSection() {
       </div>
 
       <div className="relative z-10 container mx-auto px-4 py-20 lg:py-24">
-        <div className="max-w-3xl">
+        <div className="max-w-3xl mx-auto text-center lg:text-center">
           {/* Trust badges */}
-          <div className="flex flex-wrap gap-2 mb-8">
+          <div className="flex flex-wrap gap-2 mb-8 justify-center">
             {badges.map((badge) => (
               <span
                 key={badge.text}
@@ -73,7 +73,7 @@ export function HeroSection() {
           </p>
 
           {/* Checklist */}
-          <ul className="space-y-3 mb-10">
+          <ul className="space-y-3 mb-10 inline-block text-left">
             {checks.map((item) => (
               <li key={item} className="flex items-start gap-3">
                 <CheckCircle
