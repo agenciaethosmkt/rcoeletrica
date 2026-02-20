@@ -1,5 +1,6 @@
 import { WhatsAppButton } from "@/components/WhatsAppFloat";
-import electricalPanel from "@/assets/electrical-panel.jpg";
+import panelBefore from "@/assets/panel-before.jpg";
+import panelAfter from "@/assets/panel-after.jpg";
 import { Star } from "lucide-react";
 
 const testimonials = [
@@ -64,18 +65,33 @@ export function TestimonialsSection() {
           ))}
         </div>
 
-        {/* Before / After image */}
-        <div className="max-w-2xl mx-auto mb-12 rounded-2xl overflow-hidden shadow-xl">
-          <img
-            src={electricalPanel}
-            alt="Antes e depois de quadro elétrico residencial - R.C.O Elétrica SP"
-            className="w-full h-auto object-cover"
-            loading="lazy"
-          />
-          <div className="p-4 text-center" style={{ background: "hsl(var(--primary))" }}>
-            <p className="text-sm font-semibold" style={{ color: "hsl(0 0% 100%)" }}>
-              ✅ Antes e depois de quadro elétrico residencial em São Paulo
-            </p>
+        {/* Before / After images */}
+        <div className="max-w-4xl mx-auto mb-12 grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="rounded-2xl overflow-hidden shadow-xl">
+            <img
+              src={panelBefore}
+              alt="Antes - Quadro elétrico antigo e desorganizado - R.C.O Elétrica SP"
+              className="w-full h-64 md:h-80 object-cover"
+              loading="lazy"
+            />
+            <div className="p-3 text-center" style={{ background: "hsl(0 60% 45%)" }}>
+              <p className="text-sm font-semibold" style={{ color: "hsl(0 0% 100%)" }}>
+                ❌ Antes — Quadro antigo e desorganizado
+              </p>
+            </div>
+          </div>
+          <div className="rounded-2xl overflow-hidden shadow-xl">
+            <img
+              src={panelAfter}
+              alt="Depois - Quadro elétrico moderno e organizado - R.C.O Elétrica SP"
+              className="w-full h-64 md:h-80 object-cover"
+              loading="lazy"
+            />
+            <div className="p-3 text-center" style={{ background: "hsl(var(--primary))" }}>
+              <p className="text-sm font-semibold" style={{ color: "hsl(0 0% 100%)" }}>
+                ✅ Depois — Quadro moderno com nomenclatura
+              </p>
+            </div>
           </div>
         </div>
 
