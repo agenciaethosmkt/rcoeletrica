@@ -59,7 +59,7 @@ export function TrustSection() {
             {/* The solution */}
             <div className="rounded-2xl p-8" style={{ background: "hsl(142 60% 30% / 0.2)", border: "1px solid hsl(142 60% 40% / 0.3)" }}>
               <h3 className="text-xl font-bold mb-6" style={{ color: "hsl(142 60% 60%)", fontFamily: "Montserrat, sans-serif" }}>
-                A R.C.O Serviços trabalha diferente.
+                A R.C.O Elétrica trabalha diferente.
               </h3>
               <ul className="space-y-3">
                 {differentials.map((item) => (
@@ -80,7 +80,7 @@ export function TrustSection() {
             </p>
             <WhatsAppButton
               text="Falar com o Eletricista"
-              message="Olá! Gostaria de saber mais sobre os serviços da R.C.O com garantia."
+              message="Olá! Gostaria de saber mais sobre os serviços da R.C.O Elétrica com garantia."
             />
           </div>
         </div>

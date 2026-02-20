@@ -1,5 +1,5 @@
 import heroImage from "@/assets/hero-electrician-logo.jpg";
-import logoRco from "@/assets/logo-rco.png";
+import logoRco from "@/assets/logo-rco-eletrica.png";
 import { WhatsAppButton } from "@/components/WhatsAppFloat";
 import { CheckCircle, MapPin, Clock, Shield } from "lucide-react";
 
@@ -32,7 +32,7 @@ export function HeroSection() {
 
       {/* Logo no canto superior direito */}
       <div className="absolute top-5 right-6 z-20">
-        <img src={logoRco} alt="R.C.O Serviços" className="h-12 md:h-16 w-auto opacity-90" />
+        <img src={logoRco} alt="R.C.O Elétrica" className="h-16 md:h-24 w-auto" />
       </div>
 
       <div className="relative z-10 container mx-auto px-4 py-20 lg:py-24">
