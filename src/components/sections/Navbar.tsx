@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logoRco from "@/assets/logo-rco-eletrica.png";
+import logoRco from "@/assets/logo-rco-navbar.png";
 import { Menu, X } from "lucide-react";
 
 const navLinks = [
@@ -27,7 +27,7 @@ export function Navbar() {
       <div className="container mx-auto px-4 flex items-center justify-between h-16">
         {/* Logo */}
         <a href="#inicio" className="flex-shrink-0">
-          <img src={logoRco} alt="R.C.O Elétrica" className="h-10 w-auto" />
+          <img src={logoRco} alt="R.C.O Elétrica" className="h-14 md:h-16 w-auto" />
         </a>
 
         {/* Desktop links */}
