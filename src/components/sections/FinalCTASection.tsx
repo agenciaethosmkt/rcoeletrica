@@ -3,7 +3,7 @@ import { MapPin } from "lucide-react";
 
 export function FinalCTASection() {
   return (
-    <section className="py-24" style={{ background: "var(--gradient-dark)" }}>
+    <section id="contato" className="py-24" style={{ background: "var(--gradient-dark)" }}>
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
           <div className="flex justify-center mb-8">

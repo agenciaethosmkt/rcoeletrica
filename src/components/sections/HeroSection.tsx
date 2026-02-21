@@ -1,5 +1,5 @@
 import heroImage from "@/assets/hero-electrician-logo.jpg";
-import logoRco from "@/assets/logo-rco-eletrica.png";
+
 import { WhatsAppButton } from "@/components/WhatsAppFloat";
 import { CheckCircle, MapPin, Clock, Shield } from "lucide-react";
 
@@ -20,7 +20,8 @@ const badges = [
 export function HeroSection() {
   return (
     <section
-      className="relative min-h-screen flex items-center overflow-hidden"
+      id="inicio"
+      className="relative min-h-screen flex items-center overflow-hidden pt-16"
       style={{ background: "var(--gradient-hero)" }}
     >
       {/* Background image overlay */}
@@ -30,10 +31,6 @@ export function HeroSection() {
       />
       <div className="absolute inset-0" style={{ background: "linear-gradient(90deg, hsl(215 50% 10% / 0.97) 0%, hsl(215 50% 10% / 0.75) 60%, transparent 100%)" }} />
 
-      {/* Logo no canto superior direito */}
-      <div className="absolute top-5 right-6 z-20">
-        <img src={logoRco} alt="R.C.O Elétrica" className="h-16 md:h-24 w-auto" />
-      </div>
 
       <div className="relative z-10 container mx-auto px-4 py-20 lg:py-24">
         <div className="max-w-3xl lg:ml-20">
