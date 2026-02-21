@@ -11,7 +11,7 @@ const guarantees = [
 
 export function GuaranteeSection() {
   return (
-    <section className="py-20 section-gray">
+    <section id="garantia" className="py-20 section-gray">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">

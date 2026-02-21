@@ -1,3 +1,4 @@
+import { Navbar } from "@/components/sections/Navbar";
 import { HeroSection } from "@/components/sections/HeroSection";
 import { ProblemSection } from "@/components/sections/ProblemSection";
 import { TrustSection } from "@/components/sections/TrustSection";
@@ -13,6 +14,7 @@ import { WhatsAppFloat } from "@/components/WhatsAppFloat";
 const Index = () => {
   return (
     <>
+      <Navbar />
       <HeroSection />
       <ProblemSection />
       <TrustSection />

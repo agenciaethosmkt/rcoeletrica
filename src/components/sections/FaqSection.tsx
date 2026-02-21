@@ -62,7 +62,7 @@ function FaqItem({ question, answer }: { question: string; answer: string }) {
 
 export function FaqSection() {
   return (
-    <section className="py-20 section-light" id="faq">
+    <section className="py-20 section-light" id="duvidas">
       <div className="container mx-auto px-4">
         <div className="max-w-2xl mx-auto">
           <div className="text-center mb-12">
