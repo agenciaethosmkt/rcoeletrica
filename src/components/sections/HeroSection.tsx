@@ -4,11 +4,11 @@ import { WhatsAppButton } from "@/components/WhatsAppFloat";
 import { CheckCircle, MapPin, Clock, Shield } from "lucide-react";
 
 const checks = [
-  "Troca de disjuntor em SP",
+  "Troca de disjuntor",
   "Atualização de quadro elétrico residencial",
   "Instalar ventilador de teto",
   "Instalação de chuveiro",
-  "Eletricista perto de mim com atendimento profissional",
+  "Eletricista com atendimento profissional",
 ];
 
 const badges = [
